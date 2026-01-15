@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #0ea5e9;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    background: #0284c7;
+}
+
+.hero {
+    background: url('https://session08-html-css.vercel.app/hero-bg.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #0ea5e9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0284c7;
+}
+
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-item {
+    background: #f1f1f1;
+    padding: 20px;
+    width: 25%;
+    border-radius: 8px;
+}
+
+.footer {
+    background: #0ea5e9;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
